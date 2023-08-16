@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace GeneralParactice
 {
+    //BitmapImage provides implementation of IAdvancedDraw & IDrawable
+    //IAdvancedDraw is inherited from IDrawable
     public class BitmapImage : IAdvancedDraw
     {
         public void Draw()

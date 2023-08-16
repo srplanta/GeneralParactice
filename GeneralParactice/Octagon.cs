@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace GeneralParactice
 {
     //Explicitly implemented interface
-    //inheriting 3 Interfaces with same name methods
+    //Octagon class provides explicit implementation of 3 Interfaces
+    //IDrawToForm, IDrawToMemory & IDrawToPrinter with same name methods Draw()
     public class Octagon : IDrawToForm, IDrawToMemory, IDrawToPrinter
     {
         //public void Draw()

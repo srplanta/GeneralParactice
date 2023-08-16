@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GeneralParactice
 {
-    //base class Employee must come before Interface
-    //Teacher class must implement Interface
+    //Teacher class inherits from Employee class & provides implementation of INotification
+    //base class (Employee) must come before Interface otherwise compiler gives error
     public class Teacher : Employee, INotification
     {
         public string Department { get; set; }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeneralParactice
 {
+    //Octagon class provides explicit implementation of IDrawToPrinter.Draw();
     public interface IDrawToPrinter
     {
         void Draw();

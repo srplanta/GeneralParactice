@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace GeneralParactice
 {
-    //Octagon class provides explicit implementation of IDrawToForm.Draw();
-    public interface IDrawToForm
+    public static class DelegateDemo
     {
-        void Draw();
+        public static void Add(int a, int b)
+        {
+            Console.WriteLine($"{a} + {b} = {a + b}");
+        }
     }
 }
